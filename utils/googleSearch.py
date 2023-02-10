@@ -13,7 +13,7 @@ def googleSearch(query):
     "q": query,
     "hl": "en",
     "gl": "us",
-    "api_key": os.getenv("2eefbd80-a936-11ed-a549-c3b0debeb73b")
+    "api_key": os.getenv("SERP_API_KEY")
   }
 
   search = GoogleSearch(params)
